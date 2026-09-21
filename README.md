@@ -58,3 +58,12 @@ archived in Zenodo.
 ## License
 
 No software license is granted unless a LICENSE file is added by the authors.
+
+## Archived release
+
+The reproducibility package associated with the manuscript is archived on Zenodo:
+
+**DOI:** https://doi.org/10.5281/zenodo.22870857
+
+GitHub repository:
+https://github.com/RuslanaZiub/rdh-detectability
