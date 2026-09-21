@@ -1,0 +1,16 @@
+{
+  "alpha": 1.0,
+  "alpha_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "beta": 0.0,
+  "experiment_version": "0.2.0",
+  "manifest_sha256": "2ea33fc686971261b78184838853ad6313e660d566faf929e247b5251c9ab65f",
+  "selection_metric": "minimum mean auxiliary stego probability; PSNR and distance to 0.5 are tie-breakers",
+  "split_used_for_tuning": "validation",
+  "tune_net_bpp": 0.006
+}

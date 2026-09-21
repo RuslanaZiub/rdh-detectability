@@ -1,0 +1,54 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Raw/prepared datasets
+data/raw/
+data/prepared/
+datasets/
+BOSSbase/
+bossbase/
+*.pgm
+
+# Large generated artifacts
+results/**/cache/
+results/**/caches/
+results/**/contexts/
+results/**/checkpoints/
+results/**/score_checkpoints/
+*.vhdx
+*.tar
+*.7z
+*.rar
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.npy
+*.npz
+
+# Temporary files
+*.log
+*.tmp
+*.bak

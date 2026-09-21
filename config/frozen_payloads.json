@@ -1,0 +1,20 @@
+{
+  "block_size": 64,
+  "candidate_feasibility": {
+    "0.05": 0.5295,
+    "0.1": 0.2305,
+    "0.2": 0.0565,
+    "0.3": 0.0185
+  },
+  "experiment_version": "0.2.0",
+  "levels": [
+    0.003,
+    0.006,
+    0.009,
+    0.012
+  ],
+  "manifest_sha256": "2ea33fc686971261b78184838853ad6313e660d566faf929e247b5251c9ab65f",
+  "method": "validation_q0.05_derived",
+  "minimum_validation_feasibility": 0.95,
+  "split_used_for_selection": "validation"
+}

@@ -1,0 +1,28 @@
+services:
+  lab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    command: >-
+      jupyter lab
+      --ip=0.0.0.0
+      --port=8888
+      --no-browser
+      --allow-root
+      --ServerApp.token=''
+      --ServerApp.password=''
+      --ServerApp.allow_origin='*'
+    ports:
+      - "127.0.0.1:${RDH_JUPYTER_PORT:-8890}:8888"
+    volumes:
+      - ./:/workspace
+    environment:
+      PYTHONPATH: /workspace/src
+      PYTHONUNBUFFERED: "1"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8888/api', timeout=3).read()"]
+      interval: 5s
+      timeout: 4s
+      retries: 40
+      start_period: 10s

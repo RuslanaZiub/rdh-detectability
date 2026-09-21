@@ -1,0 +1,23 @@
+{
+  "auc": 0.5037203321337056,
+  "tpr_at_fpr": 0.05284348263714142,
+  "fixed_fpr": 0.05,
+  "n": 3974,
+  "auc_low": 0.5037734960180276,
+  "auc_high": 0.5041484609701358,
+  "tpr_low": 0.050327126321087066,
+  "tpr_high": 0.055359838953195774,
+  "n_pairs": 1987,
+  "bootstrap_resamples": 2000,
+  "confidence": 0.95,
+  "median_paired_delta": 4.506956723709932e-05,
+  "mean_paired_delta": 5.023954213983784e-05,
+  "paired_delta_median_ci": {
+    "estimate": 4.506956723709932e-05,
+    "low": 4.3704067939298596e-05,
+    "high": 4.6543705976564986e-05,
+    "n": 1987
+  },
+  "cover_score_mean": 0.49965749628065426,
+  "stego_score_mean": 0.49970773582279404
+}

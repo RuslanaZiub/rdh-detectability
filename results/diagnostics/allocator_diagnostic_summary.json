@@ -1,0 +1,10 @@
+{
+  "heldout_aux_auc": 0.5037203321337056,
+  "paired_delta_span": 1.1156027622805098e-06,
+  "psnr_span_db": 3.8121453255378555,
+  "selected_D_span": 0.0010197477965790467,
+  "selected_P_span": 0.1764731796660146,
+  "median_jaccard_min": 0.1,
+  "median_jaccard_max": 1.0,
+  "note": "Diagnostic only; no alpha is frozen by this notebook."
+}
